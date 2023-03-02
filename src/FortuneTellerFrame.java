@@ -85,6 +85,7 @@ public class FortuneTellerFrame extends JFrame {
         JScrollPane ScrollPane = new JScrollPane(fortunesArea); // wrap the text area in a scroll pane
         panel.add(scrollPane);
 
+        /*
         // Display a random fortune when the button is clicked
         JButton FortuneButton = new JButton("Tell me my fortune!");
         fortuneButton.addActionListener(e -> {
@@ -92,6 +93,7 @@ public class FortuneTellerFrame extends JFrame {
             fortunesArea.append(fortunes.get(randomIndex) + "\n"); // add fortune to text area
         });
         panel.add(fortuneButton);
+         */
 
         // add the panel to the frame and display it
         frame.add(panel);
